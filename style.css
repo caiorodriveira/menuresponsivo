@@ -100,6 +100,6 @@ a:hover{
     }
     #nav.active #hamburguer::after{
         transform: rotate(-135deg);
-        top: 7px;
+        top: -11px;
     }
 }
