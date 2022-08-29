@@ -1,10 +1,10 @@
-const btnMobile = document.getElementById('btn-mobile');
+const btnMobileMenu = document.getElementById('btn-mobile-menu');
+const btnMobileClose = document.getElementById('btn-mobile-close');
 
+btnMobileMenu.addEventListener('click', toggleMenu);
+btnMobileClose.addEventListener('click', toggleMenu);
 
-const toggleMenu = () =>{
+function toggleMenu (){
     const nav = document.getElementById('nav');
     nav.classList.toggle('active');
 }
-
-
-btnMobile.addEventListener('click', toggleMenu);
